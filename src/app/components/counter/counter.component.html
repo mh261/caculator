@@ -1,0 +1,5 @@
+<button mat-button (click)="increase()"> Increase </button>
+<span>{{ (count$|async)?.count ?? 0}}</span>
+<button mat-button (click)="decrease()"> Descrerase</button>
+<button mat-button (click)="reset()"> Reset </button>
+

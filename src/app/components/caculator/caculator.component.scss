@@ -1,0 +1,71 @@
+#caculator {
+    display: block;
+    
+  }
+
+#caculator button{
+    cursor: pointer;
+}
+  
+
+  .row_1 button{
+    display: flex;
+    background-color:antiquewhite ;
+
+  }
+  .row_2 button{
+    display: flex;
+    
+  }
+  #clear{
+    width: 126px;
+    height: 25px;
+    background-color: wheat;
+
+  }
+  
+  #divide{
+    width: 43px;
+    height: 25px;
+    background-color: white;
+
+  }
+
+   #seven, #eight, #nine, #multi {
+    width: 42px;
+    height: 25px;
+    background-color: white;
+
+  }
+
+  #four, #five, #six, #minus{
+    width: 42px;
+    height: 25px;
+    background-color: white;
+
+  }
+
+  #one, #two, #three ,#plus{
+    width: 42px;
+    height: 25px;
+    background-color: white;
+
+  }
+  #zero, #comma{
+    width: 42px;
+    height: 25px;
+    background-color: white;
+
+  }
+  #equal{
+    width: 85px;
+    height: 25px;
+    background-color: orange;
+  }
+  #divide, #plus, #minus, #multi{
+    background-color: orange
+  }
+
+  
+
+
