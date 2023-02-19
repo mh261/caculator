@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Observable } from 'rxjs';
-import { Counter } from 'src/model/counter.model';
-import * as CounterActions from '../../../actions/counter.action'
+import { Counter } from 'src/app/components/caculator/model/counter.model';
+import * as CounterActions from '../caculator/caculator/actions/counter.action'
 
 @Component({
   selector: 'app-counter',

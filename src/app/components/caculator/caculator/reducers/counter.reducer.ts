@@ -1,6 +1,6 @@
 import { createReducer , on } from "@ngrx/store";
-import { Counter } from "src/model/counter.model";
-import * as CounterActions from '../actions/counter.action'
+import { Counter } from "src/app/components/caculator/model/counter.model";
+import * as CounterActions from '../caculator/actions/counter.action'
 
 let initalState = <Counter>{count: 0};
 
